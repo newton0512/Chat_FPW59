@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Комнаты</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="styles/style.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+<main class="content">
+    <div class="container p-0">
+        <div class="row g-0">
+            <div class="col-4">
+                <h1 class="h3 mb-3">КОМНАТЫ</h1>
+            </div>
+            <div class="col-8">
+                <button type="button" class="btn btn-danger float-right" id="logout-btn">Выход</button>
+                <button type="button" class="btn btn-success float-right mr-2" id="create-room-btn">Создать комнату</button>
+            </div>
+        </div>
+        <div class="row g-0" id="mess-room">
+            <h4>Вам доступны следующие комнаты:</h4>
+        </div>
+        <div class="card">
+            <div class="list-group" id="list-group">
+                <button type="button" class="list-group-item list-group-item-action">Текущая кнопка</button>
+                <button type="button" class="list-group-item list-group-item-action">Второй элемент кнопка</button>
+                <button type="button" class="list-group-item list-group-item-action">Третий элемент кнопка</button>
+                <button type="button" class="list-group-item list-group-item-action">Четвертый элемент кнопка</button>
+                <button type="button" class="list-group-item list-group-item-action">Отключенный элемент кнопка</button>
+            </div>
+        </div>
+    </div>
+</main>
+<script src="scripts/script.js"></script>
+<script src="scripts/check.js"></script>
+<script src="scripts/group_script.js"></script>
+</body>
+</html>
